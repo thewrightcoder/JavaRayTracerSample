@@ -44,7 +44,7 @@ Original icons made by <a href="http://www.flaticon.com/authors/freepik">Freepik
 <br>
 I added things to the original art.
 <br>
-ImprovedFormattedTextField and associated classes came from <a href="http://stackoverflow.com/questions/1313390/is-there-any-way-to-accept-only-numeric-values-in-a-jtextfield">this</a> post on Stack Overflow.
+ImprovedFormattedTextField and associated classes came from <a href="http://stackoverflow.com/questions/1313390/is-there-any-way-to-accept-only-numeric-values-in-a-jtextfield">this</a> post on Stack Overflow. 
 <br>
 I also used this book, available from <a href="https://www.amazon.com/Realistic-Tracing-Second-Peter-Shirley/dp/1568811985">Amazon</a> :
 <br>
