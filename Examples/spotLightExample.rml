@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scene>
+	<SceneData imageWidth="1024" imageHeight="768" AASamples="1" softShadowSamples="1" />
+	<Shader name="LambertShader" type="Lambert" color="0.500000 0.500000 0.500000" />
+	<Shader name="RedShader" type="Lambert" color="1.000000 0.000000 0.000000" />
+	<Frame>
+		<Camera nearClip="0.100000" farClip="100000.000000" fstop="0.000000" position="0.000000 5.000000 15.000000" lookat="0.000000 0.000000 0.000000" up="0.000000 1.000000 0.000000" />
+		<Light type="Spot" coneAngle="40.000000" penumbraAngle="10.000000" lookat="0.000000 0.000000 0.000000" color="1.000000 1.000000 1.000000" intensity="1.000000" position="-10.000000 10.000000 0.000000" />
+		<Geometry type="Plane" normal="0.000000 1.000000 0.000000" position="0.000000 -5.000000 0.000000" shaderName="LambertShader" />
+		<Geometry type="Sphere" radius="1.000000" position="0.000000 0.000000 0.000000" shaderName="RedShader" />
+	</Frame>
+</Scene>

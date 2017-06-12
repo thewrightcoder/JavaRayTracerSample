@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scene>
+	<SceneData imageWidth="1024" imageHeight="768" AASamples="16" softShadowSamples="1" />
+	<Shader name="Reflective" type="Reflective" color="1.000000 1.000000 1.000000" shininess="1.0" />
+	<Shader name="RedLambert" type="Lambert" color="1.000000 0.000000 0.000000" />
+	<Shader name="GreenLambert" type="Lambert" color="0.000000 1.000000 0.000000" />
+	<Shader name="BlueLambert" type="Lambert" color="0.000000 0.000000 1.000000" />
+	<Shader name="PurpleLambert" type="Lambert" color="0.600000 0.000000 0.600000" />
+	<Frame>
+		<Camera nearClip="0.010000" farClip="100000.000000" fstop="0.000000" position="0.000000 0.000000 -10.000000" lookat="0.000000 0.000000 0.000000" up="0.000000 1.000000 0.000000" />
+		<Light type="Point" forceHardShadows="false" color="0.500000 0.500000 0.500000" intensity="2.000000" position="0.000000 0.000000 -10.000000" />
+		<Geometry type="Sphere" radius="1.000000" position="0.000000 0.000000 0.000000" shaderName="Reflective" />
+		<Geometry type="Plane" normal="0.000000 0.000000 -1.000000" position="0.000000 0.000000 2.500000" shaderName="PurpleLambert" />
+		<Geometry type="Plane" normal="-1.000000 0.000000 0.000000" position="2.500000 0.000000 0.000000" shaderName="RedLambert" />
+		<Geometry type="Plane" normal="1.000000 0.000000 0.000000" position="-2.500000 0.000000 0.000000" shaderName="RedLambert" />
+		<Geometry type="Plane" normal="0.000000 -1.000000 0.000000" position="0.000000 2.500000 0.000000" shaderName="GreenLambert" />
+		<Geometry type="Plane" normal="0.000000 1.000000 0.000000" position="0.000000 -2.500000 0.000000" shaderName="BlueLambert" />
+	</Frame>
+</Scene>
