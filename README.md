@@ -26,11 +26,12 @@ This Ray Tracer isn't meant to be competitive with professional applications, su
   Here's a list of a few features I want to add in the future:
 <ul>
   <li>Textures</li>
-  <li>Reflection</li>
   <li>Polygons</li>
   <li>Polygon Mesh (with .obj support)</li>
   <li>Tea Pot, Cube, and Cylinder parametric primitives</li>
   <li>Remove "Scene Outliner".  Originally I was going to have one tree object, but the results were undesirable.    I'd like to roll the "Scene Outliner" and the "Frame Outliner" into one object, though.</li>
+  <li>Currently, if the user closes the render preview, the currently in progress render doesn't stop.  This means that those threads are still ticking away rendering, using CPU cycles.  They should end when the render preview is closed (or maybe add a cancel render button?)</li>
+  <li>At some point, I'd like to shift the rendering work to the GPU instead of the CPU.</li>
 </ul> 
 </p>
 </span>
